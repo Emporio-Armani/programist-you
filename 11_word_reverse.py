@@ -16,3 +16,10 @@ def reverse_words(string):
 
 # Поэтому задание представить решение БЕЗ функции! 
 # В отдельном файле и его надо закинуть в репозиторий с помощью git.
+
+string = "Hello World"
+words = string.split(" ")
+reversed_words = [word[::-1] for word in words]
+print(reversed_words)
+
+# Сделала решение без функции. Правильно ?)
