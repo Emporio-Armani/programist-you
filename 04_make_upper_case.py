@@ -40,3 +40,25 @@ def to_upper_case(s):
 
 # Необходимо записать решение задачи БЕЗ функции в отдельном файле.
 # этот файл необходимо занести сюда с помощью git
+
+# Вариант без функции def:
+
+s = "Пример строки"
+result = ""
+for c in s:
+    if ord('a') <= ord(c) <= ord('z'):
+        result += chr(ord(c) - ord('a') + ord('A'))
+    else:
+        result += c
+print(result)  # Вывод: ПРИМЕР СТРОКИ
+
+или
+
+s = "Пример строки"
+result = ""
+for c in s:
+    if 'a' <= c <= 'z':
+        result += chr(ord(c) - 32)
+    else:
+        result += c
+print(result)
