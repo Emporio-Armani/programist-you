@@ -23,3 +23,4 @@ reversed_words = [word[::-1] for word in words]
 print(reversed_words)
 
 # Сделала решение без функции. Правильно ?)
+# Да) но только не через git добавлено(
