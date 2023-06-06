@@ -2,3 +2,6 @@ birds = ['sparrow', 'pigeon', 'goose', 'crow', 'duck']
 geese = ['goose']
 filtered_birds = [bird for bird in birds if bird not in geese]
 print(filtered_birds) # Output: ['sparrow', 'pigeon', 'crow', 'duck']
+
+# файл необходимо привести в расширение .py
+# и выложить через git
